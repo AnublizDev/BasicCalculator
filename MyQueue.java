@@ -163,8 +163,8 @@ public class MyQueue {
     }
 
     public static void main(String [] args){
-        Scanner sc = new Scanner(System.in);
-        String prefix = sc.nextLine();
+        Scanner scan = new Scanner(System.in);
+        String prefix = scan.nextLine();
         String postfix = ShuntingYard(prefix);
         System.out.println(postfix);
 
